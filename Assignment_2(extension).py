@@ -3,6 +3,6 @@ if n=='py':n=('python')
 if n=='txt':n=('text')
 if n=='ppt':n=('powerpoint')
 if n=='xlsx':n=('excel')
-print(n)
+print("The extension of the file is :",n)
     
     
