@@ -6,7 +6,9 @@ def freq(n):
         else:
             d[k]+=1
     return d
-n=input("enter string")
+n=input("Please enter a string:")
 x=freq(n)
 x=sorted(x.items(),key=lambda i:i[1],reverse=True)
-print(x)
+for i,v in x:
+    print(i,"=",v)
+
