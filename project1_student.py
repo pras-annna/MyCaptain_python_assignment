@@ -4,7 +4,7 @@ def tocsv(x):
         writer=csv.writer(csv_file)
         if csv_file.tell()==0:
             writer.writerow(['Name','Age','Contact number','Blood Group'])
-            writer.writerow(x)
+        writer.writerow(x)
 ct=1
 while True:
     lst=[]
